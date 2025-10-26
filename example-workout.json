@@ -1,0 +1,92 @@
+{
+  "date": "2025-10-26T10:00:00Z",
+  "timeSlot": "morning",
+  "title": "Upper Body Push Volume",
+  "category": {
+    "type": "gym",
+    "subcategory": "volume_push"
+  },
+  "duration": 60,
+  "completed": false,
+  "exerciseRounds": [
+    {
+      "id": "d1234567-89ab-4def-0123-456789abcdef",
+      "order": 0,
+      "rounds": 4,
+      "restBetweenRounds": 120,
+      "exercises": [
+        {
+          "id": "e1234567-89ab-4def-0123-456789abcdef",
+          "name": "Bench Press",
+          "order": 0,
+          "volume": {
+            "type": "reps",
+            "repetitions": 10
+          },
+          "intensity": {
+            "type": "weight",
+            "kilogramms": 80
+          },
+          "rest": 90,
+          "explanation": "Focus on controlled eccentric phase"
+        },
+        {
+          "id": "e2234567-89ab-4def-0123-456789abcdef",
+          "name": "Incline Dumbbell Press",
+          "order": 1,
+          "volume": {
+            "type": "reps",
+            "repetitions": 12
+          },
+          "intensity": {
+            "type": "weight",
+            "kilogramms": 30
+          },
+          "rest": 90,
+          "explanation": "Upper chest focus"
+        }
+      ],
+      "explanation": "Main compound pressing movements"
+    },
+    {
+      "id": "d2234567-89ab-4def-0123-456789abcdef",
+      "order": 1,
+      "rounds": 3,
+      "restBetweenRounds": 90,
+      "exercises": [
+        {
+          "id": "e3234567-89ab-4def-0123-456789abcdef",
+          "name": "Cable Flyes",
+          "order": 0,
+          "volume": {
+            "type": "reps",
+            "repetitions": 15
+          },
+          "intensity": {
+            "type": "weight",
+            "kilogramms": 15
+          },
+          "rest": 60,
+          "explanation": "Focus on chest stretch and squeeze"
+        },
+        {
+          "id": "e4234567-89ab-4def-0123-456789abcdef",
+          "name": "Overhead Press",
+          "order": 1,
+          "volume": {
+            "type": "reps",
+            "repetitions": 10
+          },
+          "intensity": {
+            "type": "weight",
+            "kilogramms": 50
+          },
+          "rest": 90,
+          "explanation": "Strict form, no leg drive"
+        }
+      ],
+      "explanation": "Isolation and shoulder work"
+    }
+  ],
+  "explanation": "Volume-focused upper body push session targeting chest and shoulders. Focus on progressive overload with higher rep ranges."
+}
